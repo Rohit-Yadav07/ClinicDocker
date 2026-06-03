@@ -1,0 +1,94 @@
+/* Home page styles */
+.home-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(135deg, rgb(147, 208, 251) 0%, #43cea2 100%);
+  animation: bgMove 10s ease-in-out infinite alternate;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.home-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 2rem 1rem 3rem 1rem;
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.10);
+}
+
+.home-title {
+  font-weight: 900;
+  color: #1976d2;
+  margin-bottom: 0.7rem;
+  letter-spacing: 2px;
+  font-size: 2.7rem;
+  text-shadow: 0 2px 8px #b2c9e6;
+}
+
+.home-subtitle {
+  color: #333;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.home-btns {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.home-features {
+  margin-top: 2.5rem;
+}
+
+.feature-card {
+  border-radius: 1.5rem;
+  min-height: 180px;
+  box-shadow: 0 4px 24px 0 rgba(31,38,135,0.15);
+  transition: box-shadow 0.3s, color 0.3s;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.feature-card:hover {
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+}
+
+.feature-card .MuiButton-root {
+  margin-top: 1.2rem;
+  font-weight: 700;
+  border-radius: 2rem;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px #f093fb44;
+  transition: background 0.3s, color 0.3s;
+}
+
+.feature-card .MuiButton-root:hover {
+  color: #f5576c;
+}
+
+@media (max-width: 900px) {
+  .home-content {
+    padding: 2rem 0.5rem;
+    min-width: 0;
+    max-width: 98vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-title {
+    font-size: 2rem;
+  }
+  .home-content {
+    padding: 1rem 0.2rem;
+  }
+}

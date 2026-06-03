@@ -1,0 +1,90 @@
+2025-11-19T13:36:39.757+05:30  INFO 29852 --- [appointment-service] [restartedMain] c.a.AppointmentServiceApplication        : Starting AppointmentServiceApplication using Java 17.0.16 with PID 29852 (C:\Dev\clinic\appointment-service\target\classes started by rokumary in C:\Dev\clinic\appointment-service)
+2025-11-19T13:36:40.315+05:30  INFO 29852 --- [appointment-service] [restartedMain] c.a.AppointmentServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-11-19T13:36:40.878+05:30  INFO 29852 --- [appointment-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-19T13:36:40.891+05:30  INFO 29852 --- [appointment-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-19T13:36:50.323+05:30  INFO 29852 --- [appointment-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-19T13:36:51.323+05:30  INFO 29852 --- [appointment-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 947 ms. Found 1 JPA repository interface.
+2025-11-19T13:36:54.090+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=475174b5-6471-3de7-92e0-2cd976adca39
+2025-11-19T13:36:58.726+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-11-19T13:36:58.775+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-19T13:36:58.782+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-11-19T13:36:59.403+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-19T13:36:59.404+05:30  INFO 29852 --- [appointment-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 18486 ms
+2025-11-19T13:37:04.654+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-19T13:37:04.941+05:30  INFO 29852 --- [appointment-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-11-19T13:37:05.086+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-19T13:37:06.332+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-19T13:37:06.537+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-19T13:37:10.095+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cbf52f8
+2025-11-19T13:37:10.103+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-19T13:37:10.459+05:30  WARN 29852 --- [appointment-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-19T13:37:10.471+05:30  WARN 29852 --- [appointment-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-19T13:37:10.531+05:30  INFO 29852 --- [appointment-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-19T13:37:14.029+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-19T13:37:15.448+05:30  INFO 29852 --- [appointment-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19T13:37:17.217+05:30  WARN 29852 --- [appointment-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-19T13:37:17.476+05:30  WARN 29852 --- [appointment-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-11-19T13:37:19.345+05:30  WARN 29852 --- [appointment-service] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6069dc6f-feb6-4925-bddc-0c47b194fcca
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-19T13:37:19.373+05:30  INFO 29852 --- [appointment-service] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-19T13:37:21.098+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-19T13:37:21.845+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-11-19T13:37:24.659+05:30  INFO 29852 --- [appointment-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-19T13:37:24.759+05:30  WARN 29852 --- [appointment-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-19T13:37:25.019+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-19T13:37:25.093+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-19T13:37:25.107+05:30  INFO 29852 --- [appointment-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T13:37:25.142+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-19T13:37:25.143+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-19T13:37:25.147+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-19T13:37:25.150+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-19T13:37:25.150+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-19T13:37:25.150+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-19T13:37:25.151+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-19T13:37:26.202+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-19T13:37:26.205+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-19T13:37:26.211+05:30  INFO 29852 --- [appointment-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-19T13:37:26.221+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763539646218 with initial instances count: 0
+2025-11-19T13:37:26.236+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application APPOINTMENT-SERVICE with eureka with status UP
+2025-11-19T13:37:26.237+05:30  INFO 29852 --- [appointment-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763539646237, current=UP, previous=STARTING]
+2025-11-19T13:37:26.241+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/192.168.1.38:appointment-service:8085: registering service...
+2025-11-19T13:37:26.308+05:30  INFO 29852 --- [appointment-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-11-19T13:37:26.309+05:30  INFO 29852 --- [appointment-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2025-11-19T13:37:26.350+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/192.168.1.38:appointment-service:8085 - registration status: 204
+2025-11-19T13:37:27.326+05:30  INFO 29852 --- [appointment-service] [restartedMain] c.a.AppointmentServiceApplication        : Started AppointmentServiceApplication in 53.22 seconds (process running for 57.005)
+2025-11-19T13:37:56.219+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-19T13:37:56.219+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-19T13:37:56.220+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-19T13:37:56.220+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-19T13:37:56.220+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-19T13:37:56.221+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-11-19T13:37:56.221+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-19T13:37:56.250+05:30  INFO 29852 --- [appointment-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-19T13:42:25.168+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T13:47:25.184+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T13:52:25.190+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T13:57:25.199+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:02:25.211+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:07:25.214+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:12:25.229+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:17:25.234+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:22:25.236+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:27:25.239+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:32:25.255+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:37:25.279+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:42:25.295+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:47:25.306+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:52:25.317+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:57:25.319+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T15:02:25.331+05:30  INFO 29852 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

@@ -1,0 +1,27 @@
+/* App.css - global styles and transitions for Clinic Manager */
+
+.fade-enter {
+  opacity: 0;
+  transform: scale(0.98);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 400ms, transform 400ms;
+}
+.fade-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: scale(0.98);
+  transition: opacity 400ms, transform 400ms;
+}
+
+/* Remove any global background overrides here to allow MUI theme to work */
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}

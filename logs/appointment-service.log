@@ -1,0 +1,228 @@
+2025-06-22T00:26:28.833+05:30  INFO 10204 --- [appointment-service] [main] c.a.AppointmentServiceApplication        : Starting AppointmentServiceApplication using Java 21.0.4 with PID 10204 (C:\Eclipse\Project\cm2\clinic-manager\appointment-service\target\classes started by rohitkya in C:\Eclipse\Project\cm2\clinic-manager)
+2025-06-22T00:26:28.853+05:30  INFO 10204 --- [appointment-service] [main] c.a.AppointmentServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-06-22T00:26:30.913+05:30  INFO 10204 --- [appointment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-22T00:26:31.168+05:30  INFO 10204 --- [appointment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 231 ms. Found 1 JPA repository interface.
+2025-06-22T00:26:31.629+05:30  INFO 10204 --- [appointment-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2c88cd2e-866c-3857-8e88-1dd64d395d7d
+2025-06-22T00:26:32.724+05:30  INFO 10204 --- [appointment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-06-22T00:26:32.750+05:30  INFO 10204 --- [appointment-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-22T00:26:32.751+05:30  INFO 10204 --- [appointment-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-22T00:26:32.915+05:30  INFO 10204 --- [appointment-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-22T00:26:32.916+05:30  INFO 10204 --- [appointment-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3949 ms
+2025-06-22T00:26:33.680+05:30  INFO 10204 --- [appointment-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-22T00:26:33.846+05:30  INFO 10204 --- [appointment-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-06-22T00:26:33.919+05:30  INFO 10204 --- [appointment-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-22T00:26:34.471+05:30  INFO 10204 --- [appointment-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-22T00:26:34.512+05:30  INFO 10204 --- [appointment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-22T00:26:34.936+05:30  INFO 10204 --- [appointment-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ecfff32
+2025-06-22T00:26:34.939+05:30  INFO 10204 --- [appointment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-22T00:26:35.038+05:30  WARN 10204 --- [appointment-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-22T00:26:35.041+05:30  WARN 10204 --- [appointment-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-22T00:26:35.089+05:30  INFO 10204 --- [appointment-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-22T00:26:36.170+05:30  INFO 10204 --- [appointment-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-22T00:26:36.238+05:30  INFO 10204 --- [appointment-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-22T00:26:37.041+05:30  WARN 10204 --- [appointment-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-22T00:26:37.412+05:30  WARN 10204 --- [appointment-service] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 12d98e3f-3f12-43cd-8b85-d6a4dbed93d6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-22T00:26:37.431+05:30  INFO 10204 --- [appointment-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-22T00:26:39.814+05:30  INFO 10204 --- [appointment-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-06-22T00:26:40.012+05:30  INFO 10204 --- [appointment-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-06-22T00:26:40.749+05:30  INFO 10204 --- [appointment-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-06-22T00:26:40.803+05:30  WARN 10204 --- [appointment-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-06-22T00:26:40.911+05:30  INFO 10204 --- [appointment-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-06-22T00:26:40.943+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-06-22T00:26:40.949+05:30  INFO 10204 --- [appointment-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T00:26:40.961+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-06-22T00:26:40.962+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-06-22T00:26:40.962+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-06-22T00:26:40.962+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-06-22T00:26:40.962+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-06-22T00:26:40.962+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-06-22T00:26:40.964+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-06-22T00:26:41.309+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-06-22T00:26:41.313+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-06-22T00:26:41.316+05:30  INFO 10204 --- [appointment-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-06-22T00:26:41.319+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1750532201318 with initial instances count: 5
+2025-06-22T00:26:41.325+05:30  INFO 10204 --- [appointment-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application APPOINTMENT-SERVICE with eureka with status UP
+2025-06-22T00:26:41.325+05:30  INFO 10204 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1750532201325, current=UP, previous=STARTING]
+2025-06-22T00:26:41.328+05:30  INFO 10204 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/LIN-5CG51634GZ:appointment-service:8085: registering service...
+2025-06-22T00:26:41.367+05:30  INFO 10204 --- [appointment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-06-22T00:26:41.368+05:30  INFO 10204 --- [appointment-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2025-06-22T00:26:41.388+05:30  INFO 10204 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/LIN-5CG51634GZ:appointment-service:8085 - registration status: 204
+2025-06-22T00:26:41.388+05:30  INFO 10204 --- [appointment-service] [main] c.a.AppointmentServiceApplication        : Started AppointmentServiceApplication in 13.194 seconds (process running for 14.037)
+2025-06-22T00:26:43.275+05:30  INFO 10204 --- [appointment-service] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-22T00:26:43.275+05:30  INFO 10204 --- [appointment-service] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-22T00:26:43.276+05:30  INFO 10204 --- [appointment-service] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-22T00:26:57.173+05:30  INFO 10204 --- [appointment-service] [http-nio-8085-exec-1] c.a.controller.AppointmentController     : Received request to get appointments for doctor ID: 1
+2025-06-22T00:26:57.173+05:30  INFO 10204 --- [appointment-service] [http-nio-8085-exec-1] c.a.service.AppointmentService           : Fetching appointments for doctor ID: 1
+2025-06-22T00:26:57.174+05:30  INFO 10204 --- [appointment-service] [http-nio-8085-exec-1] c.a.service.AppointmentService           : Validating doctor ID: 1 with Doctor Service
+2025-06-22T00:31:40.976+05:30  INFO 10204 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T00:36:40.978+05:30  INFO 10204 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T00:41:40.990+05:30  INFO 10204 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T00:46:41.004+05:30  INFO 10204 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T00:51:41.006+05:30  INFO 10204 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T00:52:54.260+05:30  INFO 10204 --- [appointment-service] [http-nio-8085-exec-3] c.a.controller.AppointmentController     : Received request to get appointments for doctor ID: 1
+2025-06-22T00:52:54.261+05:30  INFO 10204 --- [appointment-service] [http-nio-8085-exec-3] c.a.service.AppointmentService           : Fetching appointments for doctor ID: 1
+2025-06-22T00:52:54.261+05:30  INFO 10204 --- [appointment-service] [http-nio-8085-exec-3] c.a.service.AppointmentService           : Validating doctor ID: 1 with Doctor Service
+2025-06-22T00:56:41.017+05:30  INFO 10204 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T00:58:37.155+05:30  INFO 27544 --- [appointment-service] [main] c.a.AppointmentServiceApplication        : Starting AppointmentServiceApplication using Java 21.0.4 with PID 27544 (C:\Eclipse\Project\cm2\clinic-manager\appointment-service\target\classes started by rohitkya in C:\Eclipse\Project\cm2\clinic-manager)
+2025-06-22T00:58:37.159+05:30  INFO 27544 --- [appointment-service] [main] c.a.AppointmentServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-06-22T00:58:39.314+05:30  INFO 27544 --- [appointment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-22T00:58:39.529+05:30  INFO 27544 --- [appointment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 1 JPA repository interface.
+2025-06-22T00:58:40.013+05:30  INFO 27544 --- [appointment-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2c88cd2e-866c-3857-8e88-1dd64d395d7d
+2025-06-22T00:58:41.261+05:30  INFO 27544 --- [appointment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-06-22T00:58:41.280+05:30  INFO 27544 --- [appointment-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-22T00:58:41.281+05:30  INFO 27544 --- [appointment-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-22T00:58:41.415+05:30  INFO 27544 --- [appointment-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-22T00:58:41.416+05:30  INFO 27544 --- [appointment-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4157 ms
+2025-06-22T00:58:42.182+05:30  INFO 27544 --- [appointment-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-22T00:58:42.325+05:30  INFO 27544 --- [appointment-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-06-22T00:58:42.408+05:30  INFO 27544 --- [appointment-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-22T00:58:42.825+05:30  INFO 27544 --- [appointment-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-22T00:58:42.875+05:30  INFO 27544 --- [appointment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-22T00:58:43.254+05:30  INFO 27544 --- [appointment-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36ce0bc2
+2025-06-22T00:58:43.259+05:30  INFO 27544 --- [appointment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-22T00:58:43.336+05:30  WARN 27544 --- [appointment-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-22T00:58:43.338+05:30  WARN 27544 --- [appointment-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-22T00:58:43.369+05:30  INFO 27544 --- [appointment-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-22T00:58:44.341+05:30  INFO 27544 --- [appointment-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-22T00:58:44.394+05:30  INFO 27544 --- [appointment-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-22T00:58:45.046+05:30  WARN 27544 --- [appointment-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-22T00:58:45.464+05:30  WARN 27544 --- [appointment-service] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 60459efa-0848-44fc-9f03-3f8086d8741d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-22T00:58:45.481+05:30  INFO 27544 --- [appointment-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-22T00:58:47.583+05:30  INFO 27544 --- [appointment-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-06-22T00:58:47.770+05:30  INFO 27544 --- [appointment-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-06-22T00:58:48.431+05:30  INFO 27544 --- [appointment-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-06-22T00:58:48.492+05:30  WARN 27544 --- [appointment-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-06-22T00:58:48.594+05:30  INFO 27544 --- [appointment-service] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-22T00:58:48.594+05:30  INFO 27544 --- [appointment-service] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-22T00:58:48.597+05:30  INFO 27544 --- [appointment-service] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-06-22T00:58:48.644+05:30  INFO 27544 --- [appointment-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-06-22T00:58:48.691+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-06-22T00:58:48.699+05:30  INFO 27544 --- [appointment-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T00:58:48.718+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-06-22T00:58:48.718+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-06-22T00:58:48.718+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-06-22T00:58:48.720+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-06-22T00:58:48.720+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-06-22T00:58:48.720+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-06-22T00:58:48.720+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-06-22T00:58:49.195+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-06-22T00:58:49.197+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-06-22T00:58:49.199+05:30  INFO 27544 --- [appointment-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-06-22T00:58:49.201+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1750534129200 with initial instances count: 5
+2025-06-22T00:58:49.207+05:30  INFO 27544 --- [appointment-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application APPOINTMENT-SERVICE with eureka with status UP
+2025-06-22T00:58:49.208+05:30  INFO 27544 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1750534129208, current=UP, previous=STARTING]
+2025-06-22T00:58:49.212+05:30  INFO 27544 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/LIN-5CG51634GZ:appointment-service:8085: registering service...
+2025-06-22T00:58:49.245+05:30  INFO 27544 --- [appointment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-06-22T00:58:49.245+05:30  INFO 27544 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/LIN-5CG51634GZ:appointment-service:8085 - registration status: 204
+2025-06-22T00:58:49.246+05:30  INFO 27544 --- [appointment-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2025-06-22T00:58:49.251+05:30  INFO 27544 --- [appointment-service] [main] c.a.AppointmentServiceApplication        : Started AppointmentServiceApplication in 12.738 seconds (process running for 13.746)
+2025-06-22T01:03:48.741+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T01:08:48.755+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T01:13:48.758+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T01:18:48.766+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T01:23:48.772+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T01:28:48.779+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T01:33:48.782+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T01:38:48.792+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T01:43:48.802+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T02:07:18.387+05:30  WARN 27544 --- [appointment-service] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m3s219ms909µs100ns).
+2025-06-22T02:09:23.031+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T02:14:23.044+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T02:19:23.061+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T02:24:23.070+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T02:29:23.082+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T02:34:23.091+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T02:37:48.324+05:30  INFO 27544 --- [appointment-service] [http-nio-8085-exec-1] c.a.controller.AppointmentController     : Received request to get appointments for doctor ID: 1
+2025-06-22T02:37:48.325+05:30  INFO 27544 --- [appointment-service] [http-nio-8085-exec-1] c.a.service.AppointmentService           : Fetching appointments for doctor ID: 1
+2025-06-22T02:37:48.325+05:30  INFO 27544 --- [appointment-service] [http-nio-8085-exec-1] c.a.service.AppointmentService           : Validating doctor ID: 1 with Doctor Service
+2025-06-22T02:39:23.098+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T02:44:23.129+05:30  INFO 27544 --- [appointment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T23:26:20.313+05:30  INFO 18216 --- [appointment-service] [main] c.a.AppointmentServiceApplication        : Starting AppointmentServiceApplication using Java 21.0.4 with PID 18216 (C:\Eclipse\Project\cm2\clinic-manager\appointment-service\target\classes started by rohitkya in C:\Eclipse\Project\cm2\clinic-manager)
+2025-06-22T23:26:20.326+05:30  INFO 18216 --- [appointment-service] [main] c.a.AppointmentServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-06-22T23:26:22.120+05:30  INFO 18216 --- [appointment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-22T23:26:22.354+05:30  INFO 18216 --- [appointment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 221 ms. Found 1 JPA repository interface.
+2025-06-22T23:26:22.771+05:30  INFO 18216 --- [appointment-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ce063d39-2d05-3d47-907c-775bd36ca995
+2025-06-22T23:26:23.722+05:30  INFO 18216 --- [appointment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-06-22T23:26:23.740+05:30  INFO 18216 --- [appointment-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-22T23:26:23.740+05:30  INFO 18216 --- [appointment-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-22T23:26:23.857+05:30  INFO 18216 --- [appointment-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-22T23:26:23.858+05:30  INFO 18216 --- [appointment-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3452 ms
+2025-06-22T23:26:24.476+05:30  INFO 18216 --- [appointment-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-22T23:26:24.633+05:30  INFO 18216 --- [appointment-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-06-22T23:26:24.678+05:30  INFO 18216 --- [appointment-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-22T23:26:25.034+05:30  INFO 18216 --- [appointment-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-22T23:26:25.074+05:30  INFO 18216 --- [appointment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-22T23:26:25.424+05:30  INFO 18216 --- [appointment-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fea9f19
+2025-06-22T23:26:25.428+05:30  INFO 18216 --- [appointment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-22T23:26:25.498+05:30  WARN 18216 --- [appointment-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-22T23:26:25.501+05:30  WARN 18216 --- [appointment-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-22T23:26:25.527+05:30  INFO 18216 --- [appointment-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-22T23:26:26.521+05:30  INFO 18216 --- [appointment-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-22T23:26:26.608+05:30  INFO 18216 --- [appointment-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-22T23:26:27.351+05:30  WARN 18216 --- [appointment-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-22T23:26:27.727+05:30  WARN 18216 --- [appointment-service] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a5174dfa-f788-49c2-9848-a5ed4108b1fb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-22T23:26:27.743+05:30  INFO 18216 --- [appointment-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-22T23:26:29.825+05:30  INFO 18216 --- [appointment-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-06-22T23:26:30.038+05:30  INFO 18216 --- [appointment-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-06-22T23:26:30.761+05:30  INFO 18216 --- [appointment-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-06-22T23:26:30.824+05:30  WARN 18216 --- [appointment-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-06-22T23:26:30.989+05:30  INFO 18216 --- [appointment-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-06-22T23:26:31.033+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-06-22T23:26:31.040+05:30  INFO 18216 --- [appointment-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-06-22T23:26:31.055+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-06-22T23:26:31.056+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-06-22T23:26:31.056+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-06-22T23:26:31.056+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-06-22T23:26:31.057+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-06-22T23:26:31.057+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-06-22T23:26:31.057+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-06-22T23:26:31.561+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-06-22T23:26:31.566+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-06-22T23:26:31.571+05:30  INFO 18216 --- [appointment-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-06-22T23:26:31.576+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1750614991575 with initial instances count: 5
+2025-06-22T23:26:31.585+05:30  INFO 18216 --- [appointment-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application APPOINTMENT-SERVICE with eureka with status UP
+2025-06-22T23:26:31.587+05:30  INFO 18216 --- [appointment-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1750614991587, current=UP, previous=STARTING]
+2025-06-22T23:26:31.594+05:30  INFO 18216 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/LIN-5CG51634GZ:appointment-service:8085: registering service...
+2025-06-22T23:26:31.661+05:30  INFO 18216 --- [appointment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-06-22T23:26:31.662+05:30  INFO 18216 --- [appointment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APPOINTMENT-SERVICE/LIN-5CG51634GZ:appointment-service:8085 - registration status: 204
+2025-06-22T23:26:31.664+05:30  INFO 18216 --- [appointment-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2025-06-22T23:26:31.692+05:30  INFO 18216 --- [appointment-service] [main] c.a.AppointmentServiceApplication        : Started AppointmentServiceApplication in 12.003 seconds (process running for 13.026)
+2025-06-22T23:26:31.739+05:30  INFO 18216 --- [appointment-service] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-22T23:26:31.739+05:30  INFO 18216 --- [appointment-service] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-22T23:26:31.740+05:30  INFO 18216 --- [appointment-service] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms

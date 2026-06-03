@@ -1,0 +1,44 @@
+2025-05-04T07:58:28.021+05:30  INFO 13440 --- [patient-service] [main] c.p.PatientServiceApplication            : Starting PatientServiceApplication using Java 18.0.1.1 with PID 13440 (E:\Linux\Clinic Manager\clinic-manager\patient-service\target\classes started by Ashwini in E:\Linux\Clinic Manager\clinic-manager\user-service)
+2025-05-04T07:58:28.032+05:30  INFO 13440 --- [patient-service] [main] c.p.PatientServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-05-04T07:58:29.709+05:30  INFO 13440 --- [patient-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-04T07:58:29.888+05:30  INFO 13440 --- [patient-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 160 ms. Found 2 JPA repository interfaces.
+2025-05-04T07:58:31.287+05:30  INFO 13440 --- [patient-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-05-04T07:58:31.317+05:30  INFO 13440 --- [patient-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-04T07:58:31.318+05:30  INFO 13440 --- [patient-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-04T07:58:31.484+05:30  INFO 13440 --- [patient-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-04T07:58:31.485+05:30  INFO 13440 --- [patient-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3357 ms
+2025-05-04T07:58:31.906+05:30  INFO 13440 --- [patient-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-04T07:58:32.062+05:30  INFO 13440 --- [patient-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-04T07:58:32.207+05:30  INFO 13440 --- [patient-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-04T07:58:32.922+05:30  INFO 13440 --- [patient-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-04T07:58:32.997+05:30  INFO 13440 --- [patient-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-04T07:58:33.611+05:30  INFO 13440 --- [patient-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54687fd0
+2025-05-04T07:58:33.615+05:30  INFO 13440 --- [patient-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-04T07:58:33.719+05:30  WARN 13440 --- [patient-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-04T07:58:33.721+05:30  WARN 13440 --- [patient-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-05-04T07:58:33.766+05:30  INFO 13440 --- [patient-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-04T07:58:36.460+05:30  INFO 13440 --- [patient-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-04T07:58:36.874+05:30  INFO 13440 --- [patient-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-04T07:58:37.859+05:30  WARN 13440 --- [patient-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-04T07:58:37.903+05:30  WARN 13440 --- [patient-service] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e4ac56ed-ef87-4fc5-9a1a-a6ac91903d6d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-05-04T07:58:37.941+05:30  INFO 13440 --- [patient-service] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-05-04T07:58:40.091+05:30  INFO 13440 --- [patient-service] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-04T07:58:40.694+05:30  INFO 13440 --- [patient-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-05-04T07:58:40.715+05:30  INFO 13440 --- [patient-service] [main] c.p.PatientServiceApplication            : Started PatientServiceApplication in 13.551 seconds (process running for 14.856)
+2025-05-04T10:17:28.515+05:30  INFO 13440 --- [patient-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-04T10:17:28.960+05:30  INFO 13440 --- [patient-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-04T10:17:28.998+05:30  INFO 13440 --- [patient-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-04T10:17:29.042+05:30  INFO 13440 --- [patient-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-04T10:17:29.054+05:30  INFO 13440 --- [patient-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,89 @@
+2025-11-19T13:36:36.863+05:30  INFO 33136 --- [doctor-service] [restartedMain] c.d.DoctorServiceApplication             : Starting DoctorServiceApplication using Java 17.0.16 with PID 33136 (C:\Dev\clinic\doctor-service\target\classes started by rokumary in C:\Dev\clinic\doctor-service)
+2025-11-19T13:36:36.978+05:30  INFO 33136 --- [doctor-service] [restartedMain] c.d.DoctorServiceApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-19T13:36:37.514+05:30  INFO 33136 --- [doctor-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-19T13:36:37.516+05:30  INFO 33136 --- [doctor-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-19T13:36:43.394+05:30  INFO 33136 --- [doctor-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-19T13:36:44.676+05:30  INFO 33136 --- [doctor-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1228 ms. Found 1 JPA repository interface.
+2025-11-19T13:36:46.879+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=742b050d-b263-339c-939d-ee13dee22b82
+2025-11-19T13:36:49.976+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-11-19T13:36:50.042+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-19T13:36:50.043+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-11-19T13:36:50.523+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-19T13:36:50.526+05:30  INFO 33136 --- [doctor-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13004 ms
+2025-11-19T13:36:52.697+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-19T13:36:53.327+05:30  INFO 33136 --- [doctor-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-11-19T13:36:53.612+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-19T13:36:55.314+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-19T13:36:55.474+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-19T13:37:00.362+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60db3054
+2025-11-19T13:37:00.369+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-19T13:37:00.754+05:30  WARN 33136 --- [doctor-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-19T13:37:00.760+05:30  WARN 33136 --- [doctor-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-19T13:37:00.876+05:30  INFO 33136 --- [doctor-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-19T13:37:04.581+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-19T13:37:05.918+05:30  INFO 33136 --- [doctor-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19T13:37:07.857+05:30  WARN 33136 --- [doctor-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-19T13:37:08.041+05:30  WARN 33136 --- [doctor-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-11-19T13:37:10.166+05:30  WARN 33136 --- [doctor-service] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b4222353-06fe-4ae7-86e4-894ab8fc8819
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-19T13:37:10.204+05:30  INFO 33136 --- [doctor-service] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-19T13:37:11.675+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-11-19T13:37:15.775+05:30  INFO 33136 --- [doctor-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-19T13:37:15.875+05:30  WARN 33136 --- [doctor-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-19T13:37:16.116+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-19T13:37:16.269+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-19T13:37:16.760+05:30  INFO 33136 --- [doctor-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T13:37:16.929+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-19T13:37:16.933+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-19T13:37:16.937+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-19T13:37:16.937+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-19T13:37:16.937+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-19T13:37:16.938+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-19T13:37:16.938+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-19T13:37:19.165+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-19T13:37:19.175+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-19T13:37:19.183+05:30  INFO 33136 --- [doctor-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-19T13:37:19.194+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763539639189 with initial instances count: 0
+2025-11-19T13:37:19.206+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DOCTOR-SERVICE with eureka with status UP
+2025-11-19T13:37:19.211+05:30  INFO 33136 --- [doctor-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763539639209, current=UP, previous=STARTING]
+2025-11-19T13:37:19.229+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DOCTOR-SERVICE/192.168.1.38:doctor-service:8083: registering service...
+2025-11-19T13:37:19.493+05:30  INFO 33136 --- [doctor-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-11-19T13:37:19.495+05:30  INFO 33136 --- [doctor-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2025-11-19T13:37:19.731+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DOCTOR-SERVICE/192.168.1.38:doctor-service:8083 - registration status: 204
+2025-11-19T13:37:20.596+05:30  INFO 33136 --- [doctor-service] [restartedMain] c.d.DoctorServiceApplication             : Started DoctorServiceApplication in 48.194 seconds (process running for 51.975)
+2025-11-19T13:37:49.191+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-19T13:37:49.192+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-19T13:37:49.192+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-19T13:37:49.192+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-19T13:37:49.192+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-19T13:37:49.193+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-11-19T13:37:49.193+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-19T13:37:49.220+05:30  INFO 33136 --- [doctor-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-19T13:42:16.954+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T13:47:16.962+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T13:52:16.975+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T13:57:16.988+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:02:16.991+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:07:16.998+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:12:17.010+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:17:17.024+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:22:17.037+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:27:17.043+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:32:17.049+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:37:17.061+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:42:17.073+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:47:17.084+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:52:17.091+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T14:57:17.095+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-19T15:02:17.101+05:30  INFO 33136 --- [doctor-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
